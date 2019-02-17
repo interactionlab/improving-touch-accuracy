@@ -8,3 +8,23 @@ Touchscreens combine input and output in a single interface. While this enables 
 `_01_Data-Preprocessing.ipynb` contains code for reading in the data set and preprocessing it. It further contains code for plotting figures to demonstrate the offset between intended input position and the registered one by Android. 
 
 `_02_Model-Training.ipynb` contains the code for reading in the preprocessed data, as well as the model definition and training with Keras. 
+
+## Publication
+<pre>
+@inproceedings{kumar2019improving,
+author = {Kumar, Abinaya and Radjesh, Aishwarya and Mayer, Sven and Le, Huy Viet},
+title = {Improving the Input Accuracy of Touchscreens using Deep Learning},
+booktitle = {Proceedings of the 2019 CHI Conference Extended Abstracts on Human Factors in Computing Systems},
+series = {CHI EA '19},
+year = {2019},
+isbn = {978-1-4503-5971-9},
+location = {Glasgow, Scotland, UK},
+numpages = {6},
+url = {https://doi.org/10.1145/3290607.3312928},
+doi = {10.1145/3290607.3312928},
+acmid = {3312928},
+publisher = {ACM},
+address = {New York, NY, USA},
+keywords = {touchscreen; touch input; targeting; input accuracy; capacitive image; smartphone; deep learning},
+}
+</pre>
